@@ -14,15 +14,6 @@ Menüleisten-Helfer.
 
 ## Was Tapsel kann
 
-🐾 **Drei Haustiere** — Katze, Hund, Hase, jederzeit wechselbar.
-
-<p align="center">
-  <img src="showcase/02_states.png" alt="Launen: fröhlich, neutral, traurig, hungrig" width="100%">
-</p>
-
-Je nach Hunger/Laune/Energie verhält es sich anders — fröhlich, neutral,
-traurig, hungrig oder müde, und es schläft, wenn es erschöpft ist.
-
 🪟 **Klettert auf deinen echten Fenstern** — nicht nur auf dem Desktop:
 
 <p align="center">
