@@ -140,7 +140,7 @@ final class PetMenuBuilder: NSObject {
         NSApp.activate(ignoringOtherApps: true)
         NSApp.orderFrontStandardAboutPanel(options: [
             .applicationName: "Tapsel",
-            .applicationVersion: "1.0.0",
+            .applicationVersion: "0.6.0",
             .credits: NSAttributedString(
                 string: "Ein kleines Pixel-Haustier für deinen Schreibtisch.",
                 attributes: [
