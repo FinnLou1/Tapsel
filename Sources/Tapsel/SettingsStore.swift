@@ -11,7 +11,7 @@ struct AppSettings: Codable, Equatable {
     /// `nil` means "whatever `NSScreen.main` is".
     var preferredScreenID: String?
 
-    static let defaultsKey = "DesktopPet.Settings.v1"
+    static let defaultsKey = "Tapsel.Settings.v1"
 
     static func load() -> AppSettings {
         guard
@@ -59,7 +59,7 @@ final class SettingsStore {
                     try SMAppService.mainApp.unregister()
                 }
             } catch {
-                NSLog("DesktopPet: launch-at-login toggle failed: \(error)")
+                NSLog("Tapsel: launch-at-login toggle failed: \(error)")
             }
         }
     }

@@ -36,8 +36,8 @@ final class PetMenuBuilder: NSObject {
         menu.addItem(.separator())
 
         menu.addItem(actionItem("Einstellungen…", #selector(openSettings), key: ",", symbol: "gearshape"))
-        menu.addItem(actionItem("Über DesktopPet", #selector(showAbout), key: "", symbol: nil))
-        menu.addItem(actionItem("DesktopPet beenden", #selector(quitAction), key: "q", symbol: nil))
+        menu.addItem(actionItem("Über Tapsel", #selector(showAbout), key: "", symbol: nil))
+        menu.addItem(actionItem("Tapsel beenden", #selector(quitAction), key: "q", symbol: nil))
     }
 
     func makeMenu() -> NSMenu {
@@ -139,7 +139,7 @@ final class PetMenuBuilder: NSObject {
     @objc private func showAbout() {
         NSApp.activate(ignoringOtherApps: true)
         NSApp.orderFrontStandardAboutPanel(options: [
-            .applicationName: "DesktopPet",
+            .applicationName: "Tapsel",
             .applicationVersion: "1.0.0",
             .credits: NSAttributedString(
                 string: "Ein kleines Pixel-Haustier für deinen Schreibtisch.",

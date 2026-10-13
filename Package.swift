@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "DesktopPet",
+    name: "Tapsel",
     platforms: [
         .macOS(.v13)
     ],
     targets: [
         .executableTarget(
-            name: "DesktopPet",
-            path: "Sources/DesktopPet"
+            name: "Tapsel",
+            path: "Sources/Tapsel"
         )
     ]
 )

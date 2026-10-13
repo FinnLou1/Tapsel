@@ -57,7 +57,7 @@ struct PetSaveData: Codable {
     var kind: PetKind
     var stats: PetStats
 
-    static let defaultsKey = "DesktopPet.SaveData.v1"
+    static let defaultsKey = "Tapsel.SaveData.v1"
 
     static func load() -> PetSaveData {
         guard

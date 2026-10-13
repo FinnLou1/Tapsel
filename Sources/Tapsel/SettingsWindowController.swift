@@ -24,7 +24,7 @@ final class SettingsWindowController: NSWindowController {
             styleMask: [.titled, .closable],
             backing: .buffered, defer: false
         )
-        window.title = "DesktopPet – Einstellungen"
+        window.title = "Tapsel – Einstellungen"
         window.isReleasedWhenClosed = false
         window.center()
         super.init(window: window)
@@ -87,7 +87,7 @@ final class SettingsWindowController: NSWindowController {
         screenColumn.alignment = .leading
         screenColumn.spacing = 2
 
-        loginCheckbox = NSButton(checkboxWithTitle: "DesktopPet bei der Anmeldung starten", target: self, action: #selector(loginChanged))
+        loginCheckbox = NSButton(checkboxWithTitle: "Tapsel bei der Anmeldung starten", target: self, action: #selector(loginChanged))
 
         let stack = NSStackView(views: [
             sectionLabel("Haustier"),

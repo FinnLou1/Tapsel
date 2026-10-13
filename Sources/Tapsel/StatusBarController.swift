@@ -38,7 +38,7 @@ final class StatusBarController: NSObject, NSMenuDelegate {
 
         let configuration = NSImage.SymbolConfiguration(pointSize: 15, weight: .regular)
         let image = NSImage(systemSymbolName: symbolName, accessibilityDescription: engine.kind.displayName)
-            ?? NSImage(systemSymbolName: "pawprint.fill", accessibilityDescription: "DesktopPet")
+            ?? NSImage(systemSymbolName: "pawprint.fill", accessibilityDescription: "Tapsel")
 
         if let image = image?.withSymbolConfiguration(configuration) {
             image.isTemplate = true

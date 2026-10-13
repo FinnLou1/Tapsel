@@ -1,7 +1,7 @@
 import AppKit
 
 /// Renders a pixel-art frame to a big PNG, used only to generate the app icon
-/// at build time (`DesktopPet --export-icon <path>`). Keeps the icon visually
+/// at build time (`Tapsel --export-icon <path>`). Keeps the icon visually
 /// consistent with the pet itself instead of needing separate artwork.
 enum IconExporter {
     static func export(to path: String, kind: PetKind = .cat, behavior: BehaviorState = .idle, mood: MoodLevel = .happy, tick: Int = 1) {
