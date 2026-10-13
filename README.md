@@ -92,6 +92,10 @@ Tastenkürzel laufen über eine klassische macOS-Hotkey-Registrierung statt
 - Auto-Update-Mechanismus, falls die App außerhalb des eigenen Rechners
   verteilt wird.
 
+## Lizenz
+
+[MIT](LICENSE)
+
 ---
 
 <details>
